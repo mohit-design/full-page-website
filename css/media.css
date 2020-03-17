@@ -10,7 +10,8 @@
 	/*------- Full Page CSS Starts -------*/
 
 .fp-section.fp-table,
-.fp-tableCell { height: auto !important; }
+.fp-tableCell,
+.fp-scrollable { height: auto !important; }
 
 	/*------- Full Page CSS Ends -------*/
 

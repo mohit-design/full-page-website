@@ -59,7 +59,7 @@
 
 	/*------- My Services Section Starts -------*/
 
-.bg-services-home { padding: 15px; }
+.bg-services-home { padding: 15px 15px 0; }
 .panel-services { margin-bottom: 15px; padding: 15px; }
 .service-border-top { width: 50px; }
 .service-border-left { height: 50px; }
@@ -73,9 +73,10 @@
 
 	/*------- Gallery Section Starts -------*/
 
-.bg-gallery-home { padding: 15px; }
+.bg-gallery-home { padding: 15px 15px 0; }
 .gallery-listing { margin-bottom: 0; }
 .gallery-listing > li { font-size: 1.6rem; margin-bottom: 15px; }
+.element-item { width: 100%; }
 .img-gallery { margin-bottom: 15px; }
 
 	/*------- Gallery Section Ends -------*/
@@ -91,7 +92,7 @@
 
 	/*------- Latest News Section Starts -------*/
 
-.bg-latest-news-home { padding: 15px; }
+.bg-latest-news-home { padding: 15px 15px 0; }
 .panel-latest-news { margin-bottom: 15px; }
 .panel-latest-news > img { margin-bottom: 15px; }
 .panel-latest-news > h4 { font-size: 1.6rem; margin-bottom: 15px; }
@@ -138,7 +139,8 @@
 	/*------- Full Page CSS Starts -------*/
 
 .fp-section.fp-table,
-.fp-tableCell { height: auto !important; }
+.fp-tableCell,
+.fp-scrollable { height: auto !important; }
 
 	/*------- Full Page CSS Ends -------*/
 
@@ -158,14 +160,14 @@
 
 	/*------- My Services Section Starts -------*/
 
-.bg-services-home { padding: 30px 15px; }
+.bg-services-home { padding: 30px 15px 0; }
 .panel-services { margin-bottom: 30px; }
 
 	/*------- My Services Section Ends -------*/
 
 	/*------- Gallery Section Starts -------*/
 
-.bg-gallery-home { padding: 30px 15px; }
+.bg-gallery-home { padding: 30px 15px 0; }
 
 	/*------- Gallery Section Ends -------*/
 
@@ -207,7 +209,8 @@
 	/*------- Full Page CSS Starts -------*/
 
 .fp-section.fp-table,
-.fp-tableCell { height: auto !important; }
+.fp-tableCell,
+.fp-scrollable { height: auto !important; }
 
 	/*------- Full Page CSS Ends -------*/
 
@@ -231,7 +234,7 @@
 	
 	/*------- Gallery Section Starts -------*/
 
-.bg-gallery-home { padding: 30px 15px; }
+.bg-gallery-home { padding: 30px 15px 0; }
 
 	/*------- Gallery Section Ends -------*/
 

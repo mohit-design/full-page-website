@@ -1,6 +1,7 @@
 $(window).on("load", function() {
 	// Isotope JS
-	var $grid = $(".grid").isotope({ });
+	var $grid = $(".grid").isotope({
+	});
 	$('.gallery-listing').on('click', 'li', function() {
 		$(this).addClass('active').siblings().removeClass('active');
 		var filterValue = $(this).attr('data-filter');
